@@ -1,0 +1,22 @@
+
+body {
+    font-family: 'Roboto Slab', serif;
+    background: #1C86EE;
+}
+
+header {
+    
+}
+
+header img {
+    display: flex;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.logo {    
+    background: #ffffff;
+    width: 300px;
+    border-radius: 10px;
+    margin: 15px auto;
+}
