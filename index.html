@@ -26,21 +26,24 @@
             <h1>Controle Financeiro</h1>
 
             <form action="">
-                <h2>Nova Compra</h2>
+                <section class="novaCompra">
+                    <label for="nomeDaCompra">Nome da compra</label>
+                    <input type="text" id="nomeDaCompra" placeholder="Compra na farmácia etc." required>
 
-                <label for="nomeDaCompra">Nome da compra</label>
-                <input type="text" id="nomeDaCompra" placeholder="Compra na farmácia etc." required>
+                    <label for="valorDaCompra">Valor</label>
+                    <input type="text" id="valorDaCompra" placeholder="30.59" required>
 
-                <label for="valorDaCompra">Valor</label>
-                <input type="text" id="valorDaCompra" placeholder="30.59" required>
-
-                <input type="submit" value="Cadastrar" class="cadastrar">
+                    <input type="submit" value="Cadastrar" class="cadastrar">
+                </section>
             </form>
+
+            <section class="extratoMensal">
+                <h2>Extrato Mensal</h2>                
+            </section>
         </main>
 
         <footer>
-            <p class="copyrigth">&copy; Controle Financeiro - 2022</p>
-            
+            <p class="copyrigth">&copy; Controle Financeiro - 2022</p>     
         </footer>
     </body>
 </html>

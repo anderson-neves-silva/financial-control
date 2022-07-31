@@ -14,9 +14,67 @@ header img {
     margin: 0 auto;
 }
 
+h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 30px 0;
+}
+
 .logo {    
     background: #ffffff;
     width: 300px;
     border-radius: 10px;
     margin: 15px auto;
+}
+
+form {
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.novaCompra {
+    margin-top: 20px;
+}
+
+.novaCompra label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.novaCompra input {
+    display: block;
+    padding: 10px 25px;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.extratoMensal {
+    text-align: center;
+    margin: 30px;
+}
+
+.cadastrar {
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 10px;
+    background: rgb(99, 99, 230);
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.cadastrar:hover {
+    font-size: 12px;
+    width: 62%;
+    background: #7dbdfc;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0;
 }
